@@ -1,0 +1,16 @@
+{
+  "name": "nanorate",
+  "version": "1.0.0",
+  "description": "Ultra-fast zero-dependency rate limiting",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "benchmark": "node benchmark.js"
+  },
+  "keywords": ["rate-limit", "throttle", "performance"],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "express": ">=4.0.0"
+  }
+}
