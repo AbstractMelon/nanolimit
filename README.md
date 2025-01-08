@@ -2,13 +2,12 @@
 
 Ultra-fast, zero-dependency rate limiting for Node.js.
 
+![Nanorate Speed Chart](./assets/chart.png)
+
 ## Features
 
 - Zero dependencies
-- Extremely high performance (>1M
-
-ops/sec)
-
+- Extremely high performance (>1M ops/sec)
 - Minimal memory footprint
 - Efficient garbage collection
 - Express middleware support

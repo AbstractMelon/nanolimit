@@ -1,16 +1,35 @@
 {
-  "name": "nanorate",
-  "version": "1.0.0",
+  "name": "nanolimit",
   "description": "Ultra-fast zero-dependency rate limiting",
-  "main": "index.js",
+  "author": "Abstractmelon",
+  "version": "0.1.0",
+  "main": "src/index.js",
   "scripts": {
-    "test": "node test.js",
-    "benchmark": "node benchmark.js"
+    "benchmark": "node benchmark.js",
+    "test": "node test.js"
   },
-  "keywords": ["rate-limit", "throttle", "performance"],
-  "author": "",
+  "directories": {
+    "lib": "src"
+  },
+  "files": [
+    "src/**/*"
+  ],
+  "keywords": [
+    "performance",
+    "rate-limit",
+    "throttle"
+  ],
   "license": "MIT",
-  "peerDependencies": {
-    "express": ">=4.0.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbstractMelon/nanolimit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AbstractMelon/nanolimit/issues"
+  },
+  "devDependencies": {
+    "express": ">=4.0.0",
+    "express-rate-limit": "^7.5.0",
+    "rate-limiter-flexible": "^5.0.4"
   }
 }
